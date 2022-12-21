@@ -38,7 +38,7 @@ class ProductItem extends StatelessWidget {
         ),
         footer: GridTileBar(
           leading: Consumer<Product>(
-            builder: (ctx, product, child) => IconButton(
+            builder: (ctx, product, _) => IconButton(
               onPressed: () {
                 product.toggleFavoriteStatus();
               },
