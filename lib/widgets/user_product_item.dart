@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:my_shop_app/providers/products_provider.dart';
 import 'package:my_shop_app/screens/edit_product_screen.dart';
